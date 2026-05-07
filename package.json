@@ -1,7 +1,7 @@
 {
   "name": "c_cpe_template",
   "version": "1.0.0",
-  "description": "SAP C_CPE_Certification",
+  "description": "Course Template",
   "dependencies": {
     "@sap/cds": "9.6.1",
     "express": "4.22.1"
