@@ -1,36 +1,41 @@
-# SAP-samples/repository-template
-This default template for SAP Samples repositories includes files for README, LICENSE, and REUSE.toml. All repositories on github.com/SAP-samples will be created based on this template.
+# Basic Template for SAP BTP Educational content
 
-# Containing Files
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-developer-training-exam)](https://api.reuse.software/info/github.com/SAP-samples/btp-developer-training-exam)
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# [Title]
-<!-- Please include descriptive title -->
-
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
 
 ## Description
-<!-- Please include SEO-friendly description -->
+This repository contains the basic template to continue working on the hands-on system.
 
-## Requirements
+It contains these folders and files, following our recommended project layout:
+
+File or Folder | Purpose
+---------|----------
+`app/` | content for UI frontends goes here
+`db/` | your domain models and data go here
+`srv/` | your service models and code go here
+`package.json` | project metadata and configuration
+`readme.md` | this getting started guide
+
+### Next Steps
+
+- Open a new terminal and run `cds watch`
+- (in SAP Business Application Studio simply choose _**Terminal** > Run Task > cds watch_)
+- Start adding content, for example, a schema.
+
+### Learn More
+
+Learn more at https://cap.cloud.sap/docs/get-started/.
+
 
 ## Download and Installation
 
+Please clone this repository and follow the instructions.
+
 ## Known Issues
-<!-- You may simply state "No known issues. -->
+No known issues.
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/btp-developer-training-exam/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 

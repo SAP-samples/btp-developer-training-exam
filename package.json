@@ -1,0 +1,16 @@
+{
+  "name": "c_cpe_template",
+  "version": "1.0.0",
+  "description": "SAP C_CPE_Certification",
+  "dependencies": {
+    "@sap/cds": "9.6.1",
+    "express": "4.22.1"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "2.1.2"
+  },
+  "scripts": {
+    "start": "cds-serve"
+  },
+  "private": true
+}
